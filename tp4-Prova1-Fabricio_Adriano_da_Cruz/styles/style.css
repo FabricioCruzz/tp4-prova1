@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 1000px;
+    height: 600px;
+    display: block;
+    margin: 30px auto;
+    border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 10px 10px;
+}
+
+td,
+th {
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px 30px;
+}
+
+th#classif,
+th#saldoGl {
+    padding: 0 100px;
+}
+
+th#pontos {
+    padding: 5px 50px;
+}
+
+th#jogos {
+    padding: 5px 40px;
+}
+
+td.classificacao {
+    text-align: left;
+    padding-left: 0;
+}
+tr.linhaPar {
+    background-color: #C0C0C0;
+}
+
+tbody#corpoTabela tr:hover {
+    background-color: hsl(120, 62%, 84%);
+}
+
+img {
+    width: 50%;
+    display: block;
+    margin: 5px auto;
+}
